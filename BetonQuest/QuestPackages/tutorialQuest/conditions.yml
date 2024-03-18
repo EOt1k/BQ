@@ -1,0 +1,7 @@
+conditions:
+  has_tag_race: tag tagrace
+  has_tag_race_complete: tag tagracecomplete
+  holding_book: hand specialBook
+  KillBear_start: tag KillBear_start
+  KillBear_reward: tag KillBear_reward
+  har_17: mmoattribute dexterity 17 

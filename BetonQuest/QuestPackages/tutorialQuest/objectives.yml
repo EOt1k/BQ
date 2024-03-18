@@ -1,0 +1,4 @@
+objectives:
+  action any any conditions:holding_book events:triggerEvent global persistent
+ 
+  

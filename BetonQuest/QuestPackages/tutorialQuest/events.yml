@@ -1,0 +1,26 @@
+events: 
+  raceOrc: "command setrace %player% Orc"
+  raceHuman: "command setrace %player% Human"
+  raceDwarf: "command setrace %player% Dwarf"
+  raceElf: "command setrace %player% Elf"
+  movenpc: "movenpc 8 4823;-54;5077;world 4823;-54;5096;world"
+  movenpcback: "movenpc 8 4823;-54;5096;world, 4823;-54;5090;world "
+  tagdel: tag del tagracecomplete
+  tagdel1: folder tagdel, tagrace2
+  tagrace: tag add tagrace
+  tagrace2: tag del tagrace
+  tagracecomplete: tag add tagracecomplete
+  movenpc2: movenpc 8 4823;-54;5077;world 4823;-54;5096;world
+  triggerEvent: notify Hey you have just opened that book!
+  tagbook: tag add tagbook
+  evbok: folder tagbook, triggerEvent
+  jorev: journal add quest_started
+  jorev1: journal update
+  jorev2: folder pageadd,jorev1
+  add_journal: journal add journal_id
+  addJournalEntry: journal add journalEntry
+  pageadd: "journal add firstpage"
+  journal_killBear: "journal add killBear"
+  quest_killBear: tag add KillBear_start
+  KillBear: folder quest_killBear,journal_killBear
+
