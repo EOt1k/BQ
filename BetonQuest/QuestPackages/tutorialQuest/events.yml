@@ -23,4 +23,8 @@ events:
   journal_killBear: "journal add killBear"
   quest_killBear: tag add KillBear_start
   KillBear: folder quest_killBear,journal_killBear
+  
+  #Ивенты для квеста "Прогнило что-то в городе"
+  movenpcХанс: movenpc 15 237;93;1345;world 237;93;1354;world
+  convХанс: conversation СтражникХ
 
